@@ -1,0 +1,7 @@
+{
+  "name": "Test Job",
+  "manifest": "assets/pastDue",
+  "onFinish": "requeue",
+  "interval": "second",
+  "from": "now"
+}
