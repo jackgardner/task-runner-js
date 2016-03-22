@@ -3,5 +3,6 @@
   "manifest": "assets/pastDue",
   "onFinish": "requeue",
   "interval": "second",
-  "from": "now"
+  "from": "now",
+  "tags": [ "some", "metadata" ]
 }

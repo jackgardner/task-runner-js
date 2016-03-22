@@ -16,6 +16,8 @@ PrettyPrinterStream.prototype._write = function (chunk, encoding, done) {
 
 
   if (method === 'info') method = 'log';
+  if (method === 'trace') method = 'debug';
+  
   consoleLogger[method](obj.msg);
 
   done();

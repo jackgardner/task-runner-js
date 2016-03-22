@@ -13,8 +13,10 @@
     "bunyan-logstash": "^0.3.4",
     "debug": "^2.2.0",
     "kafka-lib": "git+ssh://git@bitbucket.org/advanceglobalcap/lib-kafka.git",
+    "meteor-random": "0.0.3",
     "moment": "^2.11.2",
-    "nice-simple-logger": "0.0.4"
+    "nice-simple-logger": "0.0.4",
+    "restify": "^4.0.4"
   },
   "author": "",
   "license": "ISC"
